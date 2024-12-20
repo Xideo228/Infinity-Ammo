@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
-// связанные со сборкой.
+// связанные со сборкой. Видимо я не скрою что я русский
 [assembly: AssemblyTitle("Infinity Ammo")]
 [assembly: AssemblyDescription("Infinite ammo for weapons in the game SCP: SL")]
 [assembly: AssemblyConfiguration("")]
