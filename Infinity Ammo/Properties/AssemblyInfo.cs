@@ -4,13 +4,13 @@ using System.Runtime.InteropServices;
 
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
-// связанные со сборкой. Видимо я не скрою что я русский
+// связанные со сборкой.
 [assembly: AssemblyTitle("Infinity Ammo")]
 [assembly: AssemblyDescription("Infinite ammo for weapons in the game SCP: SL")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HidMan228")]
 [assembly: AssemblyProduct("Infinity Ammo")]
-[assembly: AssemblyCopyright("Copyright ©  2024")]
+[assembly: AssemblyCopyright("Copyright © HidMan228 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Номер сборки
 //      Редакция
 //
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.1.1")]
+[assembly: AssemblyFileVersion("2.0.1.1")]
