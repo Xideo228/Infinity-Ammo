@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.ComponentModel;
 using Exiled.API.Interfaces;
 
@@ -12,6 +12,8 @@ namespace Infinity_Ammo
         public bool Debug { get; set; } = false;
         [Description("Drop ammo on dead")]
         public bool DropOnDying { get; set; } = false;
+        [Description("Infinite ammo for Particle Disruptor")]
+        public bool AllowAmmoParticleDisruptor { get; set; } = true;
         [Description("Maximum number of ammo. Recommended: 100")]
         public int MaxAmmo { get; set; } = 100;
     }

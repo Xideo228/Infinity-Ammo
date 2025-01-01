@@ -22,11 +22,8 @@ namespace Infinity_Ammo
             plugin = this;
             handler_ = new EventHandler();
 
-            // Exiled.Events.Handlers.Server.RoundStarted += OnStart; // Not be Realised / Не реализованная функция
-            // Exiled.Events.Handlers.Server.RespawnedTeam += OnSpawnedTeam; // Not be Realised / Не реализованная функция
-            // Player.ReloadingWeapon += handler_.OnReload;
             Player.Dying += handler_.OnDying;
-            Player.Shooting += handler_.OnShooting;
+            Player.Shot += handler_.OnShot;
 
             base.OnEnabled();
         }
@@ -34,11 +31,8 @@ namespace Infinity_Ammo
         {
             plugin = null;
 
-            // Exiled.Events.Handlers.Server.RoundStarted -= OnStart; Not be Realised / Не реализованная функция
-            // Exiled.Events.Handlers.Server.RespawnedTeam -= OnSpawnedTeam; Not be Realised / Не реализованная функция
-            // Player.ReloadingWeapon -= handler_.OnReload;
             Player.Dying -= handler_.OnDying;
-            Player.Shooting -= handler_.OnShooting;
+            Player.Shot -= handler_.OnShot;
             handler_ = null;
 
             base.OnDisabled();
