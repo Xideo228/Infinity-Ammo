@@ -11,6 +11,8 @@ IA:
   debug: false
   # Drop ammo on dead
   drop_on_dying: false
+  # Infinite ammo for Particle Disruptor
+  allow_ammo_particle_disruptor: true
   # Maximum number of ammo. Recommended: 100
   max_ammo: 100
 ``` 
